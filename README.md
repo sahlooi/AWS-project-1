@@ -43,9 +43,10 @@ The financial datasets prepared and structured for cloud storage include:
 - Identified inconsistencies between forecast versions and actual spending
 
 ### 3. Data Visualization
+### 3. Data Visualization
 - Created architecture and data flow diagrams (Draw.io)
-- Designed visual representations of budget gaps and forecasting delays using a fishbone diagram
-
+![Fishbone Diagram](fishbone-w#2.jpg)
+- Designed visual representations of budget gaps and forecasting delays
 
 ### 4. Team Segmentation
 - Identified varying data needs among different finance teams (e.g., high-frequency users vs. periodic users)
