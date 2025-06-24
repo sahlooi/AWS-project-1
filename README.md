@@ -1,86 +1,97 @@
 # AWS Projects
 
-Hey there! 👋 This is a collection of my hands-on projects and coursework focused on **AWS Cloud**, data analytics, and infrastructure services. Most of the work here is based on what I’ve learned through practical labs and assignments, covering services like **EC2**, **S3**, **EBS**, **IAM**, **Lambda**, and more.
+Welcome! This is a collection of my practical AWS projects and assignments. These projects focus on cloud computing, data storage, and AWS infrastructure. I've worked on services like **EC2**, **S3**, **EBS**, **IAM**, **Lambda**, and more.
 
-Whether you're just starting out with cloud computing or exploring AWS for academic projects, I hope these examples give you a clearer path to follow. I'm currently pursuing an MBA in Business Analytics, and these projects reflect my learning journey.
+I'm currently studying for an MBA in Business Analytics, and these projects show what I've learned by doing real cloud-based tasks.
 
-Feel free to explore and learn along with me. 🚀
+---
 
-
-# PROJECT 1- Enhancing Budget Forecasting for the Finance Department Using AWS
+# PROJECT 1 – Improving Budget Forecasting for the Finance Team Using AWS
 
 ## Project Description
-This project focuses on improving the Finance Department’s ability to forecast budgets by analyzing current challenges and deploying a cloud-based infrastructure using Amazon Web Services (AWS). The goal is to enhance data organization, accessibility, and security while laying a foundation for more accurate financial forecasting.
+In this project, I helped the Finance Department fix problems in their budget forecasting process. I used AWS (Amazon Web Services) to build a cloud-based system that makes their data easier to manage, more secure, and more accurate for future use.
 
 ---
 
 ## Objective
-To analyze the existing budget forecasting process, identify issues, and build a cloud-based solution that centralizes and secures financial data. The solution uses AWS tools such as S3 and EC2 to store and manage financial records effectively.
+The goal was to study why the finance team's current forecasting was not working well, then create a cloud solution using AWS tools like **S3** and **EC2** to organize and protect their financial data.
 
 ---
 
 ## Dataset
-The financial datasets prepared and structured for cloud storage include:
+I worked with different types of financial data and uploaded them into cloud storage:
 
-- **Historical Budgets** – Budget records from previous years
-- **Department Expenses** – Spending data from various departments
-- **Revenue Streams** – Income sources from different operations
-- **Forecast Versions** – Versions of budget estimates across time
-- **Operational Metrics** – Metrics driving financial decisions
+- *Historical Budgets* – Past budget records  
+- *Department Expenses* – Spending data by team  
+- *Revenue Streams* – Income from different business activities  
+- *Forecast Versions* – Different versions of budget estimates  
+- *Operational Metrics* – Data that affects budget decisions  
 
 ---
 
 ## Methodology
 
 ### 1. Data Collection and Preparation
-- Analyzed root causes of inaccurate budgeting using a Fishbone Diagram
-- Designed a data lake structure using Excel
-- Uploaded cleaned and organized datasets to AWS S3 with folder hierarchies and metadata tagging
+- Found out what was causing budget errors using a **Fishbone Diagram**  
+- Planned how the data would be organized using Excel  
+- Uploaded clean and well-labeled data to **AWS S3**
 
 ### 2. Descriptive Statistics
-- Reviewed spending and budget trends over time
-- Categorized financial data by department and time period
-- Identified inconsistencies between forecast versions and actual spending
+- Looked at trends in spending and budgets over time  
+- Grouped data by department and time  
+- Found differences between forecasted and actual spending  
 
 ### 3. Data Visualization
-- Created architecture and data flow diagrams (Draw.io)
-![Fishbone Diagram](fishbone-diagram.jpg)
-- Designed visual representations of budget gaps and forecasting delays
+
+*Fishbone Diagram*  
+![Fishbone Diagram](fishbone-diagram2.jpg)
 
 ### 4. Team Segmentation
-- Identified varying data needs among different finance teams (e.g., high-frequency users vs. periodic users)
-- Developed segmentation strategies for access and usage patterns
+- Identified how different finance teams use data  
+- Created strategies for giving the right access to the right people  
 
 ### 5. Insights and Findings
-- Legacy systems lacked scalability and proper data structure
-- Data was fragmented, reducing forecasting efficiency
-- AWS deployment centralized financial information and enabled lifecycle rules for cost savings
+- Old systems couldn’t grow with the company  
+- Data was scattered and hard to work with  
+- AWS helped bring all financial data into one place and lower storage costs  
 
 ### 6. Recommendations
-- Continue using AWS EC2 and S3 for scalable data processing
-- Automate data refresh using AWS Lambda
+- Keep using **AWS EC2** and **S3** for better data handling  
+- Use **AWS Lambda** to automate updates and refreshes  
+
+### 7. Implementation Screenshots
+
+*EC2 Instance Setup*  
+![EC2](EC2.jpg)
+
+*S3 Bucket Structure*  
+![S3 Bucket](S3%20Bucket.jpg)
+
+*Security Group Configuration*  
+![SEC Group](SEC%20Group.jpg)
+
+*VPC Architecture*  
+![VPC](VPC.jpg)
 
 ---
 
 ## Tools and Technologies
-- **Amazon Web Services (AWS)** – EC2, S3, VPC
-- **Microsoft Excel** – Data lake structuring and cleanup
-- **Draw.io** – System and architecture diagrams
-- **Fishbone Analysis** – Root cause identification
-
+- **AWS (Amazon Web Services)** – EC2, S3, VPC  
+- **Microsoft Excel** – For planning and organizing the data lake  
+- **Draw.io** – To create system diagrams  
+- **Fishbone Diagram** – To find root causes of the forecasting issues  
 
 ---
 
 ## Deliverables
-- Fully functional AWS cloud system for finance operations
-- Excel-based data lake structure with categorized datasets
-- Visual diagrams (architecture, data flow, Fishbone analysis)
-- Configured AWS components: VPC, EC2 instance, S3 bucket
-- Final report with insights, design decisions, and implementation steps
-- Stakeholder presentation summarizing outcomes and next steps
+- A working cloud system on AWS for the Finance team  
+- A planned and organized data lake in Excel  
+- Diagrams showing system structure and data flow  
+- Setup of AWS components like **VPC**, **EC2**, and **S3**  
+- A final report with insights and recommendations  
+- A presentation for the stakeholders  
 
 ---
 
 ## Summary
-This project modernizes the Finance Department’s operations by leveraging AWS cloud tools to improve data security, reduce manual workload, and support smarter financial decision-making. It provides a scalable, structured, and future-ready environment for budget forecasting and financial analysis.
-
+This project helped the Finance team move from outdated systems to a secure and modern cloud setup. With AWS, they can now store and use their financial data more efficiently, make better budget forecasts, and reduce the time spent managing files. This setup is ready for future improvements like automation and live dashboards.
