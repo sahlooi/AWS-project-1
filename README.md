@@ -1,9 +1,6 @@
 # AWS Projects
 
-Welcome! This is a collection of my practical AWS projects and assignments. These projects focus on cloud computing, data storage, and AWS infrastructure. I've worked on services like **EC2**, **S3**, **EBS**, **IAM**, **Lambda**, and more.
-
-I'm currently studying for an MBA in Business Analytics, and these projects show what I've learned by doing real cloud-based tasks.
-
+Welcome! This is a collection of my practical AWS projects and assignments. These projects focus on cloud computing, data storage, and AWS infrastructure.
 ---
 
 # PROJECT 1 – Improving Budget Forecasting for the Finance Team Using AWS
