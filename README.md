@@ -45,7 +45,7 @@ The financial datasets prepared and structured for cloud storage include:
 ### 3. Data Visualization
 ### 3. Data Visualization
 - Created architecture and data flow diagrams (Draw.io)
-![Fishbone Diagram](fishbone-w#2.jpg)
+![Fishbone Diagram](fishbone-diagram.jpg)
 - Designed visual representations of budget gaps and forecasting delays
 
 ### 4. Team Segmentation
